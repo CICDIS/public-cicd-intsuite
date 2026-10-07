@@ -1,0 +1,5 @@
+
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="urn:cicd:test" targetNamespace="urn:cicd:test">
+   <xsd:include schemaLocation="dt://schema?key=CICD_TEST_DT_01_2|CICD_TEST_DT_01_2" />
+   <xsd:element name="CICD_TEST_MT_01_2" type="CICD_TEST_DT_01_2" />
+</xsd:schema>

@@ -1,0 +1,15 @@
+
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="urn:cicd:test" targetNamespace="urn:cicd:test">
+   <xsd:complexType name="CICD_TEST_DT_01_2">
+      <xsd:annotation>
+         <xsd:documentation xml:lang="EN">
+         CICD test data type
+         </xsd:documentation>
+      </xsd:annotation>
+      <xsd:sequence>
+         <xsd:element name="Field1" type="xsd:string" />
+         <xsd:element name="Field2" type="xsd:string" />
+         <xsd:element name="Field3" type="xsd:int" />
+      </xsd:sequence>
+   </xsd:complexType>
+</xsd:schema>

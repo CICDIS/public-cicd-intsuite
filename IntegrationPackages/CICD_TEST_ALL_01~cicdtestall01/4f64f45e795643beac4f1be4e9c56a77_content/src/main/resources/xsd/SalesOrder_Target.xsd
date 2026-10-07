@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="urn:cicd:test:order:target"
+           xmlns:tns="urn:cicd:test:order:target"
+           elementFormDefault="qualified">
+  <xs:element name="SalesOrder">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="DocumentNumber" type="xs:string"/>
+        <xs:element name="SoldToParty"    type="xs:string"/>
+        <xs:element name="CreationDate"   type="xs:string"/>
+        <xs:element name="CurrencyCode"   type="xs:string" minOccurs="0"/>
+        <xs:element name="TotalLineCount" type="xs:int"/>
+        <xs:element name="LineItem" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Material"    type="xs:string"/>
+              <xs:element name="ItemText"    type="xs:string" minOccurs="0"/>
+              <xs:element name="Amount"      type="xs:int"/>
+              <xs:element name="NetPrice"    type="xs:decimal"/>
+              <xs:element name="LineTotal"   type="xs:decimal"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

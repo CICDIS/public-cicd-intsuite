@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: CICD_TEST_SC_01_2
+Bundle-SymbolicName: CICD_TEST_SC_01_2
+Bundle-Version: 1.0.0
+SAP-BundleType: ScriptCollection
+SAP-NodeType: IFLMAP
+Import-Package: org.osgi.framework
+Provide-Capability: scriptcollection.CICD_TEST_SC_01_2;version:Version="
+ 1.0.0"
+Origin-Bundle-Name: CICD_TEST_SC_01_2
+Origin-Bundle-SymbolicName: CICD_TEST_SC_01_2
+

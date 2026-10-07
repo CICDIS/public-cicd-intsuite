@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: CICD_TEST_MT_01_1
+Bundle-SymbolicName: CICD_TEST_MT_01_1
+Bundle-Version: 1.0.0
+SAP-BundleType: MessageType
+SAP-NodeType: IFLMAP
+Import-Package: 
+Provide-Capability: messagetype.CICD_TEST_MT_01_1;version:Version="1.0.0
+ "
+

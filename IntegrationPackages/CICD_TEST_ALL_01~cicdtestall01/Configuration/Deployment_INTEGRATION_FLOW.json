@@ -1,0 +1,32 @@
+{
+  "PackageIntegrationFlowDeployments": {
+    "PackageName": "CICD_TEST_ALL_01",
+    "PackageID": "cicdtestall01",
+    "IntegrationFlows": [
+      {
+        "ArtifactID": "CICD_TEST_IFlow_01_2",
+        "ArtifactName": "CICD_TEST_IFlow_01_2",
+        "Deploy": "false",
+        "Rank": "100",
+        "LogLevel": "INFO",
+        "Runtimes": "iflmap"
+      },
+      {
+        "ArtifactID": "CICD_TEST_IFlow_01_1",
+        "ArtifactName": "CICD_TEST_IFlow_01_1",
+        "Deploy": "false",
+        "Rank": "100",
+        "LogLevel": "INFO",
+        "Runtimes": "iflmap"
+      },
+      {
+        "ArtifactID": "CICD_TEST_IFlow_01_3",
+        "ArtifactName": "CICD_TEST_IFlow_01_3",
+        "Deploy": "false",
+        "Rank": "100",
+        "LogLevel": "INFO",
+        "Runtimes": "iflmap"
+      }
+    ]
+  }
+}

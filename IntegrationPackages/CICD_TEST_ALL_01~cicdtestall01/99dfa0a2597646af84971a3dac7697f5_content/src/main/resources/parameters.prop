@@ -1,0 +1,3 @@
+#CICD test externalized parameters
+CICD_TEST_IFlow_01_2_Param1=default-CICD_TEST_IFlow_01_2_Param1
+CICD_TEST_IFlow_01_2_Param2=default-CICD_TEST_IFlow_01_2_Param2
